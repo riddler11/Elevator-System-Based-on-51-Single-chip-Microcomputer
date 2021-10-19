@@ -1,0 +1,38 @@
+C51 COMPILER V9.01   1                                                                     11/28/2019 22:05:17 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE 1
+OBJECT MODULE PLACED IN 1.OBJ
+COMPILER INVOKED BY: e:\Keil\C51\BIN\C51.EXE 1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"reg51.h"
+   2          #include<intrins.h>
+   3          #include <l.h>
+   4          
+   5            int floor;
+   6          void main()
+   7          {       
+   8   1       floor=1; //µÁÃ›≥ı ºªØ
+   9   1          P2=floor%10;
+  10   1          while(1)
+  11   1          {
+  12   2      lou();           
+  13   2            
+  14   2      }
+  15   1       }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1828    ----
+   CONSTANT SIZE    =    136    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2      16
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
